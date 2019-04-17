@@ -32,3 +32,12 @@ def find_a(array)
     word[0] == "a"
   end
 end
+
+def sum_array(array)
+  sum = 0
+  array.inject.do |num, sum|
+  num+sum
+end
+end
+  
+  
